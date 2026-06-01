@@ -1,0 +1,548 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "language_default": "de",
+    "rules": [
+      "Only use skills that exist in skills_master_list. Do not invent, infer, or add skills not present in this list.",
+      "If a job requires a skill not in skills_master_list, ask the user - do not decide by yourself.",
+      "Never modify: personal, education, experience[].title, experience[].company, experience[].dates, projects[].title, leadership[].title.",
+      "Only modify: experience[].bullets, skills (select and rephrase from skills_master_list only), projects[].bullets, leadership[].bullets, certifications (select relevant subset).",
+      "Cover letter must fit on a single page.",
+      "Resume may flow to page 2 if necessary.",
+      "All bullet points must be written in the language specified by the active language mode (de or en).",
+      "Certifications: select the most relevant subset from certifications_master_list. Do not add certifications not in this list."
+    ]
+  },
+  "personal": {
+    "name": "Gokul Rajan",
+    "phone": "+49 155 1029 7960",
+    "email": "gokulrece23@gmail.com",
+    "linkedin": "linkedin.com/in/gokul-rajan-ece",
+    "github": "github.com/GokulRajan23",
+    "website": "gokulrajan.de",
+    "location": "Erlangen-Nuremberg, Deutschland"
+  },
+  "education": [
+    {
+      "id": "edu_1",
+      "institution": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+      "degree_de": "Master of Science in Internationaler Wirtschaftsinformatik",
+      "degree_en": "Master of Science in International Information Systems",
+      "location_de": "Erlangen-Nürnberg, Deutschland",
+      "location_en": "Erlangen-Nuremberg, Germany",
+      "dates": "Okt. 2025 - heute"
+    },
+    {
+      "id": "edu_2",
+      "institution": "Anna University",
+      "degree_de": "Bachelor of Engineering in Elektronik und Kommunikationstechnik",
+      "degree_en": "Bachelor of Engineering in Electronics and Communication Engineering",
+      "location_de": "Chennai, Indien",
+      "location_en": "Chennai, India",
+      "dates": "Aug. 2019 - Aug. 2023"
+    }
+  ],
+  "experience": [
+    {
+      "id": "job_1",
+      "title_de": "SAP BASIS Administrator",
+      "title_en": "SAP BASIS Administrator",
+      "company": "Kyndryl Solutions Pvt. Ltd.",
+      "dates": "Aug. 2023 - Sept. 2025",
+      "bullets_de": [
+        "Mitarbeit in strukturierten IT- und Unternehmensprozessen für einen globalen Industriekunden (Henkel) in den Bereichen Development, Quality und Production.",
+        "Unterstützte Systemaktualisierungen, Refreshes und Validierungen und stellte den stabilen Betrieb nach Änderungen sicher.",
+        "Erstellung und Pflege strukturierter Berichte sowie Aufbereitung von Daten zur Unterstützung von Entscheidungsprozessen.",
+        "Sicherstellung der Datenqualität und Konsistenz durch strukturierte Datenpflege und Validierung mit Microsoft Excel.",
+        "Koordination von Aufgaben, Follow-ups und Informationsflüssen zwischen verschiedenen Teams.",
+        "Erstellte und pflegte strukturierte Dokumentationen, Arbeitsanweisungen und Systemrichtlinien zur Sicherstellung von Transparenz und Nutzerakzeptanz.",
+        "Koordinierte Kunden- und interne Meetings mit dem deutschen B2B-Kunden Henkel - Vorbereitung von Agenden, Protokollführung und Nachverfolgung offener Punkte auf Englisch und Deutsch.",
+        "Erstellte und pflegte Auswertungen und Reports in Excel und PowerPoint mit Pivot-Tabellen als Entscheidungsgrundlage für das Senior Management."
+      ],
+      "bullets_en": [
+        "Supported enterprise SAP ERP landscapes across Development, Quality, and Production environments for a global manufacturing client (Henkel).",
+        "Assisted with system updates, refreshes, and validations, ensuring stable operations after changes.",
+        "Prepared and maintained structured documentation, work instructions, and system guidelines to support transparency and user adoption.",
+        "Created Excel-based reports and PowerPoint presentations used for operational reviews and internal decision-making.",
+        "Coordinated tasks, follow-ups, and information flows between cross-functional teams.",
+        "Ensured data quality and consistency through structured data maintenance and validation.",
+        "Coordinated client and internal meetings with German B2B client Henkel - prepared agendas, took minutes, and tracked open items in English and German.",
+        "Performed basic system health checks and supported issue analysis to maintain stable IT operations."
+      ]
+    },
+    {
+      "id": "job_2",
+      "title_de": "Python Programmer (Praktikum)",
+      "title_en": "Python Programmer (Intern)",
+      "company": "The Institution of Electronics and Telecommunication Engineers",
+      "dates": "Nov. 2020 - Dez. 2020",
+      "bullets_de": [
+        "Automatisierung wiederkehrender Prozesse mit Python zur Effizienzsteigerung.",
+        "Entwicklung von Skripten zur strukturierten Datenverarbeitung und Analyse.",
+        "Dokumentation von Skripten und Prozessen zur Sicherstellung von Transparenz und Wiederverwendbarkeit.",
+        "Zusammenarbeit mit Mentoren und Peers in einer remote Umgebung mit strukturierter Aufgabenkoordination."
+      ],
+      "bullets_en": [
+        "Supported automation and scripting tasks using Python to improve efficiency of routine technical processes.",
+        "Developed scripts for structured data processing and analysis.",
+        "Documented scripts and processes to support transparency, reuse, and team collaboration.",
+        "Collaborated remotely with mentors and peers, gaining experience in structured communication and task coordination."
+      ]
+    },
+    {
+      "id": "job_3",
+      "title_de": "Technical Content Analyst (Praktikum)",
+      "title_en": "Technical Content Analyst Intern",
+      "company": "Studymonk Inc.",
+      "dates": "Okt. 2020 - Nov. 2020",
+      "bullets_de": [
+        "Erstellung strukturierter Dokumentationen zur verständlichen Darstellung technischer Inhalte für nicht-technische Zielgruppen.",
+        "Strukturierung von Informationen zur Verbesserung von Verständlichkeit und Konsistenz.",
+        "Unterstützung bei der Erstellung und Optimierung von Kommunikationsmaterialien und Angebotsinhalten.",
+        "Koordinierte Deliverables eigenständig - strukturierte Priorisierung paralleler Aufgaben mit termingerechter Umsetzung.",
+        "Zusammenarbeit mit Redakteuren und Stakeholdern sowie Einarbeitung von Feedback.",
+        "Anwendung grundlegender SEO-Prinzipien zur Verbesserung der Auffindbarkeit von Inhalten."
+      ],
+      "bullets_en": [
+        "Created structured explanatory content and training-style materials to simplify complex technical topics for non-technical audiences.",
+        "Supported internal communication goals by producing well-organized articles aligned with technical topics.",
+        "Coordinated deliverables independently - structured prioritization of parallel tasks with on-time delivery.",
+        "Collaborated with editors and stakeholders to refine content based on feedback and usability considerations.",
+        "Applied basic SEO principles to improve content visibility and accessibility."
+      ]
+    }
+  ],
+  "skills_master_list": [
+    {
+      "id": "skill_1",
+      "de": "Projektplanung und -organisation",
+      "en": "Project planning and organization"
+    },
+    {
+      "id": "skill_2",
+      "de": "Terminkoordination und Meeting-Organisation",
+      "en": "Scheduling and meeting coordination"
+    },
+    {
+      "id": "skill_3",
+      "de": "Nachverfolgung offener Punkte",
+      "en": "Action item tracking and follow-up"
+    },
+    {
+      "id": "skill_4",
+      "de": "Allgemeine administrative Unterstützung",
+      "en": "General administrative support"
+    },
+    {
+      "id": "skill_5",
+      "de": "Strukturierte Markt- und Wettbewerbsrecherche",
+      "en": "Structured market and competitive research"
+    },
+    {
+      "id": "skill_6",
+      "de": "Aufbereitung von Angebots- und Abrechnungsunterlagen",
+      "en": "Preparation of offer and billing documents"
+    },
+    {
+      "id": "skill_7",
+      "de": "Erstellung zielgruppengerechter Präsentationen",
+      "en": "Creating audience-appropriate presentations"
+    },
+    {
+      "id": "skill_8",
+      "de": "B2B-Kundenkommunikation (Englisch C1, Deutsch A2)",
+      "en": "B2B client communication (English C1, German A2)"
+    },
+    {
+      "id": "skill_9",
+      "de": "Zusammenarbeit mit cross-funktionalen Teams",
+      "en": "Cross-functional team collaboration"
+    },
+    {
+      "id": "skill_10",
+      "de": "Stakeholder-Kommunikation",
+      "en": "Stakeholder communication"
+    },
+    {
+      "id": "skill_11",
+      "de": "Microsoft Excel (Pivot-Tabellen, Reporting, Dashboards)",
+      "en": "Microsoft Excel (Pivot tables, reporting, dashboards)"
+    },
+    {
+      "id": "skill_12",
+      "de": "Microsoft PowerPoint",
+      "en": "Microsoft PowerPoint"
+    },
+    {
+      "id": "skill_13",
+      "de": "Microsoft Word",
+      "en": "Microsoft Word"
+    },
+    {
+      "id": "skill_14",
+      "de": "Microsoft Outlook",
+      "en": "Microsoft Outlook"
+    },
+    {
+      "id": "skill_15",
+      "de": "SharePoint",
+      "en": "SharePoint"
+    },
+    {
+      "id": "skill_16",
+      "de": "Microsoft Teams",
+      "en": "Microsoft Teams"
+    },
+    {
+      "id": "skill_17",
+      "de": "Power BI",
+      "en": "Power BI"
+    },
+    {
+      "id": "skill_18",
+      "de": "ServiceNow",
+      "en": "ServiceNow"
+    },
+    {
+      "id": "skill_19",
+      "de": "SAP ERP (Enterprise-Umgebung)",
+      "en": "SAP ERP (enterprise environment)"
+    },
+    {
+      "id": "skill_20",
+      "de": "Datenpflege und Datenvalidierung",
+      "en": "Data maintenance and validation"
+    },
+    {
+      "id": "skill_21",
+      "de": "Datenanalyse und strukturiertes Reporting",
+      "en": "Data analysis and structured reporting"
+    },
+    {
+      "id": "skill_22",
+      "de": "KPI-Monitoring und Dashboard-Erstellung",
+      "en": "KPI monitoring and dashboard creation"
+    },
+    {
+      "id": "skill_23",
+      "de": "Prozessdokumentation",
+      "en": "Process documentation"
+    },
+    {
+      "id": "skill_24",
+      "de": "Onboarding-Unterstützung",
+      "en": "Onboarding support"
+    },
+    {
+      "id": "skill_25",
+      "de": "Python (Scripting, Automatisierung, Datenverarbeitung)",
+      "en": "Python (scripting, automation, data processing)"
+    },
+    {
+      "id": "skill_26",
+      "de": "SQL",
+      "en": "SQL"
+    },
+    {
+      "id": "skill_27",
+      "de": "Grundkenntnisse Netzwerktechnik",
+      "en": "Basic networking concepts"
+    },
+    {
+      "id": "skill_28",
+      "de": "Windows und grundlegende Linux-Kenntnisse",
+      "en": "Windows and basic Linux"
+    },
+    {
+      "id": "skill_29",
+      "de": "KI-Tools und LLMs (explorativ, Content und Analyse)",
+      "en": "AI tools and LLMs (exploratory, content and analysis)"
+    },
+    {
+      "id": "skill_30",
+      "de": "Erstellung von Schulungsmaterialien und Nutzerhandbüchern",
+      "en": "Creation of training materials and user guides"
+    },
+    {
+      "id": "skill_31",
+      "de": "Strukturierte Arbeitsweise",
+      "en": "Structured working style"
+    },
+    {
+      "id": "skill_32",
+      "de": "Zuverlässigkeit und Belastbarkeit",
+      "en": "Reliability and resilience"
+    },
+    {
+      "id": "skill_33",
+      "de": "Eigenständiges und teamorientiertes Arbeiten",
+      "en": "Independent and team-oriented working"
+    },
+    {
+      "id": "skill_34",
+      "de": "Detailorientierung",
+      "en": "Attention to detail"
+    },
+    {
+      "id": "skill_35",
+      "de": "Proaktive Kommunikation",
+      "en": "Proactive communication"
+    },
+    {
+      "id": "skill_36",
+      "de": "Organisationsstärke",
+      "en": "Strong organizational skills"
+    },
+    {
+      "id": "skill_37",
+      "de": "IBM Maximo (Ticketing & Asset Management)",
+      "en": "IBM Maximo (ticketing & asset management)"
+    },
+    {
+      "id": "skill_38",
+      "de": "SAP BASIS Administration",
+      "en": "SAP BASIS Administration"
+    },
+    {
+      "id": "skill_39",
+      "de": "Prompt Engineering (ChatGPT, Claude & Gemini)",
+      "en": "Prompt Engineering (ChatGPT, Claude & Gemini)"
+    },
+    {
+      "id": "skill_40",
+      "de": "Ticket- und Workflow-Management (SAP, ServiceNow, IBM Maximo, Excel, Microsoft Teams, cross-funktionale Teams)",
+      "en": "Ticket and workflow management (SAP, ServiceNow, IBM Maximo, Excel, Microsoft Teams, cross-functional teams)"
+    },
+    {
+      "id": "skill_41",
+      "de": "Kollaborative Dokumentation und Wissensverwaltung (SharePoint, Microsoft Teams, cross-funktionale Zusammenarbeit)",
+      "en": "Collaborative documentation and knowledge management (SharePoint, Microsoft Teams, cross-functional collaboration)"
+    },
+    {
+      "id": "skill_42",
+      "de": "Iterative Zusammenarbeit und agile Arbeitsweise (Hackathons, IT-Operations)",
+      "en": "Iterative collaboration and agile working methods (hackathons, IT operations)"
+    },
+    {
+      "id": "skill_43",
+      "de": "LangGraph (Multi-Agent-KI-Architekturen)",
+      "en": "LangGraph (multi-agent AI architectures)"
+    },
+    {
+      "id": "skill_44",
+      "de": "n8n (Workflow-Automatisierung)",
+      "en": "n8n (workflow automation)"
+    },
+    {
+      "id": "skill_45",
+      "de": "Git (Versionskontrolle)",
+      "en": "Git (version control)"
+    },
+    {
+      "id": "skill_46",
+      "de": "CST Studio Suite (Ingenieurssimulation)",
+      "en": "CST Studio Suite (engineering simulation)"
+    },
+    {
+      "id": "skill_47",
+      "de": "MATLAB (Numerische Analyse & Modellierung)",
+      "en": "MATLAB (numerical analysis & modeling)"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Tamil",
+      "level_de": "Muttersprache",
+      "level_en": "Native"
+    },
+    {
+      "language": "Englisch",
+      "level_de": "Fließend (C1)",
+      "level_en": "Fluent (C1)"
+    },
+    {
+      "language": "Deutsch",
+      "level_de": "Grundkenntnisse (A2)",
+      "level_en": "Basic (A2)"
+    }
+  ],
+  "projects": [
+    {
+      "id": "hackathon_1",
+      "title_de": "Q Hack 2026 (Mannheim) - KI-Verkaufscoach (Minerva)",
+      "title_en": "Q Hack 2026 (Mannheim) - AI Sales Coach (Minerva)",
+      "badge_de": "Gewinner",
+      "badge_en": "Winner",
+      "date": "Apr. 2026",
+      "bullets_de": [
+        "Entwicklung eines LangGraph-basierten Multi-Agent-KI-Systems zur Verarbeitung von Echtzeit-Eingabedaten und Erzeugung strukturierter Sales-Coaching-Ausgaben.",
+        "Eigenständiger Entwurf der Agentenarchitektur, der Prompt-Pipeline und der Evaluierungslogik.",
+        "1. Platz unter allen teilnehmenden Teams."
+      ],
+      "bullets_en": [
+        "Built a LangGraph-based multi-agent AI system processing real-time input data to generate structured sales coaching outputs.",
+        "Designed the agent architecture, prompt pipeline, and evaluation logic from scratch.",
+        "Awarded 1st place among all competing teams."
+      ]
+    },
+    {
+      "id": "hackathon_2",
+      "title_de": "AI Founding Agent Hackathon (Nürnberg)",
+      "title_en": "AI Founding Agent Hackathon (Nuremberg)",
+      "badge_de": "",
+      "badge_en": "",
+      "date": "2025",
+      "bullets_de": [
+        "Entwurf und Entwicklung eines KI-Mitgründer-Agenten mit n8n zur automatisierten, mehrstufigen Bewertung von Geschäftsideen.",
+        "Automatisierte Analyse von Machbarkeit, Risiko, Marktpotenzial und gesellschaftlichem Impact mit strukturiertem, transparentem Output je Entscheidungsstufe."
+      ],
+      "bullets_en": [
+        "Designed and built an AI co-founder agent using n8n - automated multi-step business idea evaluation across feasibility, risk, market potential, and impact.",
+        "Produced structured, transparent output at each decision stage."
+      ]
+    },
+    {
+      "id": "hackathon_3",
+      "title_de": "Smart India Hackathon (Indien)",
+      "title_en": "Smart India Hackathon (India)",
+      "badge_de": "",
+      "badge_en": "",
+      "date": "2021",
+      "bullets_de": [
+        "Entwicklung eines kontaktlosen automatisierten Anwesenheitssystems auf Basis von Computer Vision und strukturierten Datenpipelines.",
+        "Eliminierung physischer Interaktion, Sicherstellung von Datengenauigkeit und Deployment einer skalierbaren Lösung für institutionelle Anforderungen während COVID-19."
+      ],
+      "bullets_en": [
+        "Built a contactless automated attendance system using computer vision and structured data pipelines.",
+        "Eliminated physical interaction, ensured data accuracy, and deployed a scalable solution addressing real institutional needs during COVID-19."
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "id": "leadership_1",
+      "title_de": "Sekretär, Verein der Elektronik- und Kommunikationsingenieure (SVCE)",
+      "title_en": "Secretary, Electronics and Communication Engineers Association (SVCE)",
+      "dates": "Sept. 2021 - Aug. 2022",
+      "bullets_de": [
+        "Übernahm Account-ähnliche Koordinationsaufgaben als zentrale Ansprechperson für externe Partner, Referenten und Gäste bei 10+ Veranstaltungen.",
+        "Organisierte und koordinierte interne und externe Meetings sowie Veranstaltungen für 100+ Teilnehmende - strukturierte Planung, Agendavorbereitung und Nachverfolgung aller offenen Punkte.",
+        "Schnittstelle zwischen Studierenden, Dozenten und externen Partnern - zuverlässige Kommunikation und Beziehungspflege.",
+        "Pflege strukturierter Dokumentation, Protokolle und Eventunterlagen zur Sicherstellung von Transparenz und Kontinuität."
+      ],
+      "bullets_en": [
+        "Acted as central coordination point for external partners, speakers, and guests across 10+ events.",
+        "Organized and coordinated internal and external meetings and events for 100+ participants - structured planning, agenda preparation, and follow-up on all open items.",
+        "Served as communication interface between students, faculty, and external speakers.",
+        "Maintained structured records, meeting notes, and event documentation to ensure transparency and continuity."
+      ]
+    },
+    {
+      "id": "leadership_2",
+      "title_de": "Stellvertretender Sekretär, Verein der Elektronik- und Kommunikationsingenieure (SVCE)",
+      "title_en": "Joint Secretary, Electronics and Communication Engineers Association (SVCE)",
+      "dates": "Aug. 2020 - Sept. 2021",
+      "bullets_de": [
+        "Unterstützte Planung und Koordination von Veranstaltungen durch Abstimmung von Zeitplänen, Verantwortlichkeiten und Kommunikation.",
+        "Kommunikationspunkt für Gastreferenten und interne Stakeholder.",
+        "Mitwirkung bei Planungsdokumentation und Inhaltsvorbereitung für Abteilungsaktivitäten."
+      ],
+      "bullets_en": [
+        "Supported planning and coordination of events by aligning timelines, responsibilities, and communication.",
+        "Served as communication point for guest speakers and internal stakeholders.",
+        "Contributed to planning documentation and content preparation for departmental activities."
+      ]
+    }
+  ],
+  "certifications_master_list": [
+    {
+      "id": "cert_1",
+      "name": "Prompt Engineering with Gemini, Claude & ChatGPT",
+      "issuer": "Online Platform",
+      "url": "https://drive.google.com/file/d/1dmx-Stz2doILZNmc40OmpE6ZHTkSeQRV/view?usp=sharing",
+      "relevance_tags": [
+        "AI",
+        "LLM",
+        "automation",
+        "content",
+        "tech"
+      ]
+    },
+    {
+      "id": "cert_2",
+      "name": "Distributed Platform - Windows & VMware Admin (Kyndryl)",
+      "issuer": "Kyndryl",
+      "url": "https://drive.google.com/file/d/13LabhgwMAjP2Fs5JwmQy_x6w0r6jCwP4/view",
+      "relevance_tags": [
+        "IT",
+        "infrastructure",
+        "Windows",
+        "system admin",
+        "SAP BASIS"
+      ]
+    },
+    {
+      "id": "cert_3",
+      "name": "Microsoft Power BI - Data Visualization and Reporting",
+      "issuer": "Microsoft",
+      "url": "https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIxNzIyIiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvODYxMTU4OF84OTc4NDU3MTc1MjI2MTM0MzQ5OC5wbmciLCJ1c2VybmFtZSI6IkdPS1VMIFJBSkFOIn0%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion",
+      "relevance_tags": [
+        "Power BI",
+        "data",
+        "reporting",
+        "visualization",
+        "analytics"
+      ]
+    },
+    {
+      "id": "cert_4",
+      "name": "Microsoft Certified: Azure Fundamentals (AZ-900)",
+      "issuer": "Microsoft",
+      "url": "https://learn.microsoft.com/en-us/users/gokulr-2802/credentials/8acb8cd2f6f7b9f0",
+      "relevance_tags": [
+        "Azure",
+        "cloud",
+        "IT",
+        "infrastructure",
+        "Microsoft"
+      ]
+    },
+    {
+      "id": "cert_5",
+      "name": "Microsoft Certified: Azure AI Fundamentals (AI-900)",
+      "issuer": "Microsoft",
+      "url": "https://learn.microsoft.com/en-us/users/gokulr-2802/credentials/6e47c3a34da1b906",
+      "relevance_tags": [
+        "Azure",
+        "AI",
+        "cloud",
+        "Microsoft",
+        "machine learning"
+      ]
+    },
+    {
+      "id": "cert_6",
+      "name": "Google Cloud Computing Foundations",
+      "issuer": "Google",
+      "url": "https://archive.nptel.ac.in/content/noc/NOC23/SEM2/Ecertificates/106/noc23-cs90/Course/NPTEL23CS90S83350677420173177.pdf",
+      "relevance_tags": [
+        "cloud",
+        "GCP",
+        "infrastructure",
+        "IT"
+      ]
+    },
+    {
+      "id": "cert_7",
+      "name": "Automation Fundamentals (Kyndryl)",
+      "issuer": "Kyndryl",
+      "url": "https://drive.google.com/file/d/1YWD8DarGWDBHvMt1IRvnB2-zA85-6P_u/view",
+      "relevance_tags": [
+        "automation",
+        "IT",
+        "process",
+        "efficiency"
+      ]
+    }
+  ]
+}
